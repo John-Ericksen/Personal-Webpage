@@ -8,7 +8,7 @@
 }
 
 .gradient {
-  --size: 250px;
+  --size: 500px;
   --speed: 38s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
@@ -19,11 +19,12 @@
   animation: rotate var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   transition: all 0.25s ease-out;
+  z-index: -2;
 }
 
 @media (min-width: 720px) {
   .gradient {
-    --size: 600px;
+    --size: 850px;
   }
   .border {
     height: 95%;
@@ -54,6 +55,7 @@ body {
   top: 0px;
   left: 0px;
   margin: 1vw;
+  z-index: -1;
 }
 
 

@@ -1,14 +1,14 @@
-import Backround from './components/Backround/Backround'
-import Header from './components/Header/Header'
-import './App.css'
+import Backround from "./components/Backround/Backround";
+import Header from "./components/Header/Header";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Backround/>
-      <Header/>
+      <Header />
+      <Backround />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
