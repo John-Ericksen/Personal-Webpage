@@ -13,3 +13,10 @@
 .header > h3 {
   font-weight: 80;
 }
+
+@media (max-width: 720px) {
+  .header {
+    top: 1px;
+    left: 30px;
+  }
+}
