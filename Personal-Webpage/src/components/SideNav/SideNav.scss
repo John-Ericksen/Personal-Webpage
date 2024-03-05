@@ -25,15 +25,15 @@
   color: white;
 }
 
-ul li:hover:not(.selected) {
+ul li:hover {
   list-style:circle;
 }
 
-ul li.selected {
-  list-style: disc;
+.selected {
+  list-style: disk;
 }
 
-ul li.not-selected {
+.not-selected {
   list-style: none;
 }
 
