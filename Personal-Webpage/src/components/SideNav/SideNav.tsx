@@ -13,8 +13,8 @@ export default function SideNav() {
   function select(section: number) {
     setSelectedArray((prevSelectedArray: any) => {
       const updatedArray = prevSelectedArray.map(
-        (i: number) => {
-          if (i === section) {
+        (value: boolean, index: number) => {
+          if (index === section) {
             return true;
           } else {
             return false;
