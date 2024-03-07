@@ -2,9 +2,10 @@ import { useState } from "react";
 import Backround from "../Backround/Backround";
 import Header from "../Header/Header";
 import SideNav from "../SideNav/SideNav";
+import Home from "../Home/Home";
 
 export default function Content() {
-    const [selectedArray, setSelectedArray] = useState([
+    const [sectionArray, setSectionArray] = useState([
       false,
       false,
       false,
@@ -13,9 +14,9 @@ export default function Content() {
     ]);
 
     function select(section: number) {
-      setSelectedArray((prevSelectedArray: any) => {
+      setSectionArray((prevSelectedArray: any) => {
         const updatedArray = prevSelectedArray.map(
-          (value: boolean, index: number) => {
+          (_value: boolean, index: number) => {
             if (index === section) {
               return true;
             } else {
@@ -30,7 +31,8 @@ export default function Content() {
     return (
       <>
         <Header />
-        <SideNav selectedArray={selectedArray} select={select} />
+        <SideNav selectedArray={sectionArray} select={select} />
+        <Home/>
         <Backround />
       </>
     );
