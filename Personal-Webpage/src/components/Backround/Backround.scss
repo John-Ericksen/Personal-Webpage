@@ -1,21 +1,29 @@
+$home-1: rgba(76, 165, 255, 0.3);
+$home-2: rgba(255, 0, 123, 0.3);
+$home-3: rgba(255, 21, 0, 0.3);
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
+    transform: scale(.5);
+
   }
+  
   100% {
     transform: rotate(360deg);
+    transform: scale(1);
   }
 }
 
 .gradient {
   --size: 500px;
-  --speed: 38s;
+  --speed: 25s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background-image: linear-gradient(rgba(237, 69, 128, 0.2) 0,  rgba(242, 177, 208, 0.2) 66%, rgba(212, 101, 91, 0.2)100%);
+  background-image: linear-gradient($home-1 0,  $home-2 66%, $home-3 100%);
   animation: rotate var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   transition: all 0.25s ease-out;
