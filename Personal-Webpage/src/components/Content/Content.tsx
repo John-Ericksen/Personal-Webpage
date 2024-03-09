@@ -6,7 +6,7 @@ import Home from "../Home/Home";
 
 export default function Content() {
     const [sectionArray, setSectionArray] = useState([
-      false,
+      true,
       false,
       false,
       false,
@@ -32,7 +32,7 @@ export default function Content() {
       <>
         <Header />
         <SideNav selectedArray={sectionArray} select={select} />
-        <Home/>
+        <Home sectionArray={sectionArray}/>
         <Backround />
       </>
     );
