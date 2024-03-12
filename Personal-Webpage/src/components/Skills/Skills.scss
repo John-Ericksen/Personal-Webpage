@@ -2,14 +2,14 @@
   position: absolute;
   top: 50vh;
   left: 60vw;
-  max-width: 23vw;
+  max-width: 25vw;
   text-align: start;
   transition: all 0.25s ease-out;
   font-size: 16px;
   z-index: 2;
   display: flex;
+  gap: 30px;
 }
-
 
 .active {
   opacity: 100%;
