@@ -7,31 +7,31 @@ export default function SideNav(props: any) {
           className={props.selectedArray[0] == true ? "selected" : "not-selected"}
           onClick={() => props.select(0)}
         >
-          <a href="#">Home</a>
+          <p>Home</p>
         </li>
         <li
           className={props.selectedArray[1] == true ? "selected" : "not-selected"}
           onClick={() => props.select(1)}
         >
-          <a href="#">Skills</a>
+          <p>Skills</p>
         </li>
         <li
           className={props.selectedArray[2] == true ? "selected" : "not-selected"}
           onClick={() => props.select(2)}
         >
-          <a href="#">Experience</a>
+          <p>Experience</p>
         </li>
         <li
           className={props.selectedArray[3] == true ? "selected" : "not-selected"}
           onClick={() => props.select(3)}
         >
-          <a href="#">Portfolio</a>
+          <p>Portfolio</p>
         </li>
         <li
           className={props.selectedArray[4] == true ? "selected" : "not-selected"}
           onClick={() => props.select(4)}
         >
-          <a href="#">Contact</a>
+          <p>Contact</p>
         </li>
       </ul>
     </div>

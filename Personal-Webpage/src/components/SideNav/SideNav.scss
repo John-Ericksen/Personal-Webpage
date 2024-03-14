@@ -7,33 +7,28 @@
   top: 135px; /* Stay at the top */
   left: 80px;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 40px; /* Place content 60px from the top */
+  padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   text-align: left;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 0px;
-  text-decoration: none;
-  font-size: 22px;
-  color: rgb(199, 199, 199);
-  display: block;
-  transition: 0.3s;
+.sidenav > ul > li > p {
+  font-size: 20px;
 }
 
-.sidenav a:hover {
+.sidenav li:hover {
   color: white;
 }
 
-ul li:hover:not(.selected) {
+.sidenav > ul > li:hover:not(.selected) {
   list-style:circle;
 }
 
-ul li.selected {
+.sidenav > ul > li.selected {
   list-style: disc;
 }
 
-ul li.not-selected {
+.sidenav > ul > li.not-selected {
   list-style: none;
 }
 
@@ -41,10 +36,5 @@ ul li.not-selected {
   .sidenav {
     top: 120px;
     left: 50px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-    width: fit-content;
   }
 }
