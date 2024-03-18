@@ -2,7 +2,6 @@
   position: absolute;
   top: 40vh;
   left: 50vw;
-  max-width: 40vw;
   text-align: start;
   transition: all 0.25s ease-out;
   font-size: .9em;
@@ -10,7 +9,20 @@
   display: flex;
   gap: 2vw;
   text-align: left;
+  
+}
 
+.programmming-languages, .design-and-planning {
+  background-color: rgb(192,192,192, .1);
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  min-height: 200px;
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  width: fit-content;
 }
 
 h2 {
@@ -33,7 +45,6 @@ h2 {
   .skills {
     top: 40vh;
     left: 40vw;
-    max-width: 38vw;
     font-size: 12px;
 
     h2 {
@@ -47,7 +58,6 @@ h2 {
   .skills {
     top:20vh;
     left: 40vw;
-    max-width: 38vw;
     font-size: 12px;
 
     h2 {

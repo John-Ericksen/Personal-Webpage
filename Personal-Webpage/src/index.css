@@ -48,12 +48,21 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
-
 body {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  height: 0vh;
+  background-color: #363636;
 }
 
 @keyframes fadeInAnimation {

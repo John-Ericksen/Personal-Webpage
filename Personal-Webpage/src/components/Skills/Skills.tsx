@@ -14,7 +14,7 @@ export default function Skills(props: any) {
           {formattedProgrammingTecchnologies}
         </ul>
       </div>
-      <div className="design-and-planning: ">
+      <div className="design-and-planning">
         <h2>Design and Planning</h2>
         <ul>
           {formattedDesignSkills}
