@@ -5,6 +5,10 @@ $home-3: rgba(255, 21, 0, 0.3);
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
+    transform: scale(1);
+  }
+
+  50% {
     transform: scale(.5);
   }
   
