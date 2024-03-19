@@ -2,8 +2,8 @@ import "./Skills.scss";
 import SkillsData from "./SkillsData";
 
 export default function Skills(props: any) {
-  const formattedProgrammingTecchnologies = SkillsData[0].map((value) => <li><p>{value}</p></li>)
-  const formattedDesignSkills = SkillsData[1].map((value) => <li><p>{value}</p></li>)
+  const formattedProgrammingTecchnologies = SkillsData[0].map((value) => <li key={crypto.randomUUID()}><p>{value}</p></li>)
+  const formattedDesignSkills = SkillsData[1].map((value) => <li key={crypto.randomUUID()}><p>{value}</p></li>)
 
 
   return (

@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import SideNav from "../SideNav/SideNav";
 import Home from "../Home/Home";
 import Skills from "../Skills/Skills";
+import Experience from "../Experience/Experience";
 
 export default function Content() {
     const [sectionArray, setSectionArray] = useState([
@@ -35,7 +36,8 @@ export default function Content() {
         <SideNav selectedArray={sectionArray} select={select} />
         <Home sectionArray={sectionArray}/>
         <Skills sectionArray={sectionArray}/>
-        <Backround />
+        <Experience sectionArray={sectionArray}/>
+        <Backround/>
       </>
     );
   }
