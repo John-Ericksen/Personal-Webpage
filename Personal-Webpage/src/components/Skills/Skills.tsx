@@ -8,9 +8,9 @@ export default function Skills(props: any) {
 
   return (
     <div className={`skills ${props.sectionArray[1] ? "active" : "inactive"}`}>
-      <div className="programmming-languages">
+      <div className="programmming-technologies">
         <h2>Programming Technologies</h2>
-        <ul>
+        <ul className="programmming-technologies-list">
           {formattedProgrammingTecchnologies}
         </ul>
       </div>

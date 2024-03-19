@@ -6,11 +6,12 @@ const programmingTechnologies = [
   "CSS",
   "TypeScript",
   "React",
+  "Machine Learning",
   "JavaScript",
+  "Python",
   "C#",
   "Java",
   "C",
-  "Python",
 ];
 
 const design = [
@@ -19,7 +20,7 @@ const design = [
   "Asana",
   "Figma",
   "Documentation Writing",
-  "Git and Version Management Systems",
+  "Version Management",
   "Photoshop",
 ];
 

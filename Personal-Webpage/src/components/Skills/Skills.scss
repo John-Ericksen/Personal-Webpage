@@ -1,7 +1,7 @@
 .skills {
   position: absolute;
   top: 40vh;
-  left: 50vw;
+  left: 40vw;
   text-align: start;
   transition: all 0.25s ease-out;
   font-size: .9em;
@@ -9,20 +9,24 @@
   display: flex;
   gap: 2vw;
   text-align: left;
-  
 }
 
-.programmming-languages, .design-and-planning {
+.programmming-technologies, .design-and-planning {
   background-color: rgb(192,192,192, .1);
   border-radius: 10px;
   padding: 10px;
-  overflow-y: scroll;
+  
   white-space: nowrap;
   min-height: 200px;
   display: flex;
   height: 50vh;
   flex-direction: column;
-  width: fit-content;
+  width: 25vw;
+}
+
+.programmming-technologies-list, .design-and-planning-list {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -31,41 +35,33 @@ h2 {
   margin: 0px;
 }
 
-.active {
-  opacity: 100%;
-  z-index: 2;
+@media (max-width: 380px) {
+  .skills {
+    top:20vh;
+    left: 40vw;
+    font-size: 16px;
+
+    h2 {
+      font-size: 18px;
+      width: 20vw;
+    }
+  }
 }
 
-.inactive {
-  opacity: 0%;
-  z-index: -1;
-}
 
 @media (max-width: 1400px) {
   .skills {
     top: 40vh;
-    left: 40vw;
+    left: 38vw;
     font-size: 12px;
 
     h2 {
-      font-size: 18px;
+      font-size: 16px;
       width: 20vw;
+    }
+
+    .programmming-technologies, .design-and-planning{
+      min-width: 210px;
     }
   }
 }
-
-@media (max-width: 680px) {
-  .skills {
-    top:20vh;
-    left: 40vw;
-    font-size: 12px;
-
-    h2 {
-      font-size: 18px;
-      width: 20vw;
-    }
-  }
-}
-
-
-
