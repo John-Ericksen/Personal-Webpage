@@ -72,12 +72,24 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@keyframes fadeOutAnimation {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
 .active {
-  opacity: 100%;
   z-index: 2;
+  animation: fadeInAnimation .7s;
 }
 
 .inactive {
   opacity: 0%;
   z-index: -1;
+  animation: fadeOutAnimation .7s;
+
 }
+

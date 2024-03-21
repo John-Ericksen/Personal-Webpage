@@ -1,5 +1,45 @@
 .experience {
-    position: absolute;
-    top: 50vh;
-    left: 50vw;
+  position: absolute;
+  top: 33vh;
+  left: 25vw;
+  text-align: start;
+  background-color: rgb(192, 192, 192, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: auto;
+  transition: all 0.25s ease-out;
+}
+
+.experience-card {
+    max-width: 390px;
+    margin: 10px;
+    transition: all 0.25s ease-out;
+}
+
+.experience-card > p {
+  font-size: 20px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.experience-header > h3 {
+  font-size: 25px;
+}
+
+.experience > p {
+  font-size: 25px;
+}
+
+.experience-header > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 20px; 
 }
