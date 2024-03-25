@@ -82,14 +82,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .active {
-  z-index: 2;
-  animation: fadeInAnimation .7s;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 .inactive {
-  opacity: 0%;
-  z-index: -1;
-  animation: fadeOutAnimation .7s;
-
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
 }
 
