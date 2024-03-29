@@ -10,7 +10,7 @@ const ExperienceData = [
     title: "QuattronKids",
     subtitle: "Programming Instructor",
     image: "https://www.quattronkids.com/logo.jpg",
-    text: "Interned at Amazon, AWS branch. Designed and coded web pages along with improving accessibility features for blind and visually impaired users.",
+    text: "Instructed others in the fundamentals of programming, Python, and Game Development.",
   },
 ];
 

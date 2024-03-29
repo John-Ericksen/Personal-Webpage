@@ -5,6 +5,8 @@ import SideNav from "../SideNav/SideNav";
 import Home from "../Home/Home";
 import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
+import Portfolio from "../Portfolio/Portfolio";
+
 
 export default function Content() {
     const [sectionArray, setSectionArray] = useState([
