@@ -1,6 +1,6 @@
 const ExperienceData = [
   {
-    title: "Amazon Web Services",
+    title: "Amazon",
     subtitle: "Software Engineering Intern",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PB7gDdA6O7gpwXX-cDoelORPic-1rSP6xRUfJQX_zw&s",

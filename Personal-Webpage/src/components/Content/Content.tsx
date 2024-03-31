@@ -39,6 +39,7 @@ export default function Content() {
         <Home sectionArray={sectionArray}/>
         <Skills sectionArray={sectionArray}/>
         <Experience sectionArray={sectionArray}/>
+        <Portfolio sectionArray={sectionArray}/>
         <Backround/>
       </>
     );
