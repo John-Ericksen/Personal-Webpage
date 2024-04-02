@@ -22,15 +22,30 @@
 
 .sidenav > ul > li:hover:not(.selected) {
   list-style:circle;
+  opacity: 100%;
 }
 
 .sidenav > ul > li.selected {
   list-style: disc;
 }
 
+.sidenav > ul > li.selected > p {
+  font-size: 25px;
+  transition: 0.4s; 
+}
+
+
 .sidenav > ul > li.not-selected {
   list-style: none;
+  opacity: 70%;
+  transition: 0.4s; 
 }
+
+.sidenav > ul > li.not-selected > p {
+  font-size: 20px;
+  transition: 0.4s; 
+}
+
 
 @media (max-width: 720px) {
   .sidenav {
