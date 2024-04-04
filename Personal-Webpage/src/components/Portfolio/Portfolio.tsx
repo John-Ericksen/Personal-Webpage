@@ -24,6 +24,7 @@ export default function Portfolio(props: any) {
 
   const formattedTechPortfolio = PortfolioData[0].map((item) => (
     <TechProject
+      key={crypto.randomUUID()}
       projectThumbnail={item.image}
       title={item.title}
       text={item.text}
@@ -42,14 +43,43 @@ export default function Portfolio(props: any) {
       className={`portfolio ${props.sectionArray[3] ? "active" : "inactive"}`}
     >
       <div className="portfolio-menu">
-        <button className={menuState == "tech" ? "tech-portfolio-button-active" : "tech-portfolio-button-inactive" } onClick={switchToTech}>
+        <button
+          className={
+            menuState == "tech"
+              ? "tech-portfolio-button-active"
+              : "tech-portfolio-button-inactive"
+          }
+          onClick={switchToTech}
+        >
           Technological
         </button>
-        <button className={menuState == "art" ? "art-portfolio-button-active" : "art-portfolio-button-inactive"} onClick={switchToArt}>
+        <button
+          className={
+            menuState == "art"
+              ? "art-portfolio-button-active"
+              : "art-portfolio-button-inactive"
+          }
+          onClick={switchToArt}
+        >
           Artistic
         </button>
       </div>
-       <div className={menuState == "tech" ? "tech-portfolio active" : "tech-portfolio inactive"}>{formattedTechPortfolio}</div>
+      <div
+        className={
+          menuState == "tech"
+            ? "tech-portfolio active"
+            : "tech-portfolio inactive"
+        }
+      >
+        {formattedTechPortfolio}
+      </div>
+      <div
+        className={
+          menuState == "art" ? "art-portfolio active" : "art-portfolio inactive"
+        }
+      >
+        <h1>Under Construction!</h1>
+      </div>
     </div>
   );
-};
+}

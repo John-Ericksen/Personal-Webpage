@@ -6,6 +6,10 @@
   border-radius: 10px;
 }
 
+.portfolio-menu {
+  padding-bottom: 10px;
+}
+
 .tech-project {
   display: flex;
   flex-direction: column;
@@ -21,6 +25,11 @@
   padding-right: 20px;
   overflow-y: scroll;
   height: 50vh;
+}
+
+.art-portfolio {
+  position: absolute;
+  top: 100px;
 }
 
 .tech-project > .project-header {
