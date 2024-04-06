@@ -27,7 +27,8 @@
   height: 50vh;
 }
 
-.art-portfolio, .tech-portfolio {
+.art-portfolio,
+.tech-portfolio {
   position: absolute;
   top: 100px;
 }
@@ -76,33 +77,37 @@ a.button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-button.tech-portfolio-button-active:hover, button.art-portfolio-button-active:hover {
-    border-color: #646cff;
-  }
-  button.tech-portfolio-button-active:focus, button.art-portfolio-button-active:focus,
-  button.tech-portfolio-button-active:focus-visible, button.art-portfolio-button-active:focus-visible {
-    outline: 2px auto white;
-  }
-  
-
-button.tech-portfolio-button-active, button.art-portfolio-button-active {
-    padding: .8em;
-    margin: .2em;
-    background-color: transparent;
-    border: 2px solid white;
-    font-size: large;
-    opacity: 100%;
-    transition: 0.3s; 
+button.tech-portfolio-button-active:hover,
+button.art-portfolio-button-active:hover {
+  border-color: #646cff;
+}
+button.tech-portfolio-button-active:focus,
+button.art-portfolio-button-active:focus,
+button.tech-portfolio-button-active:focus-visible,
+button.art-portfolio-button-active:focus-visible {
+  outline: 2px auto white;
 }
 
-button.tech-portfolio-button-inactive, button.art-portfolio-button-inactive {
-    padding: .5em;
-    margin: .2em;
-    background-color: transparent;
-    border: 1px solid gray;
-    font-size: medium;
-    opacity: 50%;
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+button.tech-portfolio-button-active,
+button.art-portfolio-button-active {
+  padding: 0.8em;
+  margin: 0.2em;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: large;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+button.tech-portfolio-button-inactive,
+button.art-portfolio-button-inactive {
+  padding: 0.5em;
+  margin: 0.2em;
+  background-color: transparent;
+  border: 1px solid gray;
+  font-size: medium;
+  opacity: 50%;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 @media (max-width: 735px) {
@@ -111,7 +116,8 @@ button.tech-portfolio-button-inactive, button.art-portfolio-button-inactive {
     width: 50vw;
   }
 
-  .tech-portfolio, .art-portfolio {
+  .tech-portfolio,
+  .art-portfolio {
     width: 45vw;
   }
 
