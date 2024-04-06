@@ -27,7 +27,7 @@
   height: 50vh;
 }
 
-.art-portfolio {
+.art-portfolio, .tech-portfolio {
   position: absolute;
   top: 100px;
 }
@@ -103,4 +103,19 @@ button.tech-portfolio-button-inactive, button.art-portfolio-button-inactive {
     font-size: medium;
     opacity: 50%;
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+@media (max-width: 735px) {
+  .portfolio {
+    left: 40vw;
+    width: 50vw;
+  }
+
+  .tech-portfolio, .art-portfolio {
+    width: 45vw;
+  }
+
+  .tech-project {
+    width: auto;
+  }
 }

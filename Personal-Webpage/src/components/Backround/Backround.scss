@@ -20,7 +20,7 @@ $home-9: rgba(0, 255, 183, 0.4);
   }
 
   50% {
-    transform: scale(.5);
+    transform: scale(.55);
   }
   
   100% {
@@ -31,11 +31,11 @@ $home-9: rgba(0, 255, 183, 0.4);
 
 .gradient-1 {
   --size: 500px;
-  --speed: 25s;
+  --speed: 30s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
   position: absolute;
-  top: 45vh;
-  left: 33vw;
+  top: 25vh;
+  left: 25vw;
 
   width: var(--size);
   height: var(--size);
@@ -49,11 +49,11 @@ $home-9: rgba(0, 255, 183, 0.4);
 
 .gradient-2 {
   --size: 500px;
-  --speed: 25s;
+  --speed: 30s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
   position: absolute;
-  top: 25vh;
-  left: 40vw;
+  top: 10vh;
+  left: 33vw;
 
   width: var(--size);
   height: var(--size);
@@ -67,11 +67,11 @@ $home-9: rgba(0, 255, 183, 0.4);
 
 .gradient-3 {
   --size: 500px;
-  --speed: 25s;
+  --speed: 30s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
   position: absolute;
-  top: 45vh;
-  left: 45vw;
+  top: 25vh;
+  left: 40vw;
 
   width: var(--size);
   height: var(--size);
