@@ -6,6 +6,7 @@ import Home from "../Home/Home";
 import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
 import Portfolio from "../Portfolio/Portfolio";
+import Contacts from "../Contacts/Contacts";
 
 
 export default function Content() {
@@ -40,6 +41,7 @@ export default function Content() {
         <Skills sectionArray={sectionArray}/>
         <Experience sectionArray={sectionArray}/>
         <Portfolio sectionArray={sectionArray}/>
+        <Contacts sectionArray={sectionArray}/>
         <Backround/>
       </>
     );

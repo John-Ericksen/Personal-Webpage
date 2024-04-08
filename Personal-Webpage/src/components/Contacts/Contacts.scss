@@ -1,0 +1,26 @@
+.contacts {
+  text-align: start;
+  border: 1px solid white;
+  width: 35em;
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+}
+
+.contacts > h2 > a {
+  color: rgba($color: #0004dd, $alpha: 1);
+  transition: 0.3s;
+  display: inline;
+  height: 2em;
+}
+
+.contacts > h2 > a:hover {
+  color: rgba($color: #4649ff, $alpha: 1);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+svg.divider{
+  stroke: rgba($color: #ffffff7d, $alpha: .3);
+  padding-left:9em;
+}
