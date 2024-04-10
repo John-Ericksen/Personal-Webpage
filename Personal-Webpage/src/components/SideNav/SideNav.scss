@@ -1,0 +1,55 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: fit-content; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 135px; /* Stay at the top */
+  left: 80px;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  text-align: left;
+}
+
+.sidenav > ul > li > p {
+  font-size: 20px;
+}
+
+.sidenav li:hover {
+  color: white;
+}
+
+.sidenav > ul > li:hover:not(.selected) {
+  list-style:circle;
+  opacity: 100%;
+}
+
+.sidenav > ul > li.selected {
+  list-style: disc;
+}
+
+.sidenav > ul > li.selected > p {
+  font-size: 25px;
+  transition: 0.4s; 
+}
+
+
+.sidenav > ul > li.not-selected {
+  list-style: none;
+  opacity: 70%;
+  transition: 0.4s; 
+}
+
+.sidenav > ul > li.not-selected > p {
+  font-size: 20px;
+  transition: 0.4s; 
+}
+
+
+@media (max-width: 720px) {
+  .sidenav {
+    top: 120px;
+    left: 50px;
+  }
+}

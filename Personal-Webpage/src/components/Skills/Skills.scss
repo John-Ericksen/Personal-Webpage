@@ -1,0 +1,84 @@
+.skills {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  text-align: start;
+  font-size: 1.1em;
+  z-index: 2;
+  gap: 2vw;
+  text-align: left;
+  display: flex;
+}
+
+.programmming-technologies,
+.design-and-planning {
+  background-color: rgb(192, 192, 192, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+  overflow-x: none;
+  white-space: nowrap;
+  min-height: 200px;
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  width: fit-content;
+}
+
+h2 {
+  font-size: 25px;
+  width: 350px;
+  margin: 0px;
+}
+
+@media (max-width: 1400px) {
+  .skills {
+    top: 40vh;
+    left: 65vw;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 20x;
+    max-height: 50vh;
+    width: 25vw;
+  }
+
+  h2 {
+    font-size: 18px;
+    width: 20vw;
+  }
+
+  .programmming-technologies,
+  .design-and-planning {
+    min-width: 30vw;
+    overflow-y: visible;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 950px) {
+  .skills {
+    top: 40vh;
+    left: 38vw;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 20x;
+    max-height: 50vh;
+    width: auto;
+  }
+
+  .programmming-technologies,
+  .design-and-planning {
+    min-width: 30vw;
+    width: auto;
+    overflow-y: visible;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,124 @@
+$home-1: rgba(76, 165, 255, 0.4);
+$home-2: rgba(0, 204, 255, 0.4);
+$home-3: rgba(255, 0, 255, 0.4);
+
+$home-4: rgba(255, 0, 0, 0.4);
+$home-5: rgba(255, 85, 0, 0.4);
+$home-6: rgba(255, 204, 0, 0.4);
+
+$home-7: rgba(89, 255, 0, 0.4);
+$home-8: rgba(0, 255, 110, 0.4);
+$home-9: rgba(0, 255, 183, 0.4);
+
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.55);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+    transform: scale(1);
+  }
+}
+
+.gradient-1 {
+  --size: 500px;
+  --speed: 30s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient($home-3 0,  $home-2 66%, $home-1 100%);
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.25s ease-out;
+  z-index: -2;
+}
+
+.gradient-2 {
+  --size: 500px;
+  --speed: 30s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  position: absolute;
+  top: 10vh;
+  left: 33vw;
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient($home-4 0,  $home-5 66%, $home-6 100%);
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.25s ease-out;
+  z-index: -2;
+}
+
+.gradient-3 {
+  --size: 500px;
+  --speed: 30s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  position: absolute;
+  top: 25vh;
+  left: 40vw;
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient($home-7 0,  $home-8 66%, $home-9 100%);
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.25s ease-out;
+  z-index: -2;
+}
+
+@media (min-width: 720px) {
+  .gradient {
+    --size: 850px;
+  }
+  .border {
+    height: 95%;
+  }
+  
+}
+
+body {
+  background-color: black;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 720px) {
+  .border {
+    height: 99%;
+  }
+}
+
+.border {
+  width: 98%;
+  border: 1px solid white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 1vw;
+  z-index: -1;
+}
+
+
+
+
