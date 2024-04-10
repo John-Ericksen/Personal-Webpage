@@ -1,7 +1,6 @@
-import "./Home.scss"
+import "./Home.scss";
 
 export default function Home(props: any) {
-
   return (
     <div className={`home ${props.sectionArray[0] ? "active" : "inactive"}`}>
       <p>

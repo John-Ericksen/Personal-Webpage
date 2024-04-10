@@ -24,5 +24,5 @@ const design = [
   "Photoshop",
 ];
 
-const SkillsData = [programmingTechnologies, design]
+const SkillsData = [programmingTechnologies, design];
 export default SkillsData;

@@ -1,4 +1,4 @@
-import "./Header.scss"
+import "./Header.scss";
 
 export default function Header() {
   return (
@@ -6,6 +6,5 @@ export default function Header() {
       <h1>John Ericksen</h1>
       <h3>Software Engineer and Artist</h3>
     </div>
-    
-  )
+  );
 }
