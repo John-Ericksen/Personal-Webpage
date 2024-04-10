@@ -1,14 +1,13 @@
-import "./Backround.scss"
+import "./Backround.scss";
 
 export default function Backround() {
-  return(
+  return (
     <>
-      <div className="gradient-1"/>
-      <div className="gradient-2"/>
-      <div className="gradient-3"/>
+      <div className="gradient-1" />
+      <div className="gradient-2" />
+      <div className="gradient-3" />
 
-      <div className="border"/>
+      <div className="border" />
     </>
-    
-  )
+  );
 }

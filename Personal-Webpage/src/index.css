@@ -56,7 +56,7 @@ body {
 body::-webkit-scrollbar {
   width: 1em;
 }
-  
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
@@ -64,19 +64,19 @@ body::-webkit-scrollbar-thumb {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @keyframes fadeOutAnimation {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
   transition: visibility 0s linear 300ms, opacity 300ms;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   background-color: transparent;
   width: 5px;
 }

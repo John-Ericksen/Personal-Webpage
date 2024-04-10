@@ -25,15 +25,15 @@
   transition: 0.3s;
 }
 
-svg.divider{
-  stroke: rgba($color: #ffffff7d, $alpha: .3);
-  padding-left:9em;
+svg.divider {
+  stroke: rgba($color: #ffffff7d, $alpha: 0.3);
+  padding-left: 9em;
 }
 
 @media (max-width: 700px) {
-  svg.divider{
+  svg.divider {
     visibility: hidden;
-    padding-left:none;
+    padding-left: none;
   }
 
   .contacts {
