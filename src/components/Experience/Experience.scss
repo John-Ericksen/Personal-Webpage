@@ -17,6 +17,8 @@
   transition: all 0.25s ease-out;
   border-radius: 5px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .experience-card > p {
@@ -48,13 +50,35 @@
   .experience {
     position: absolute;
     top: 25vh;
+    left: 45vw;
+    height: 70vh;
+    text-align: start;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto;
+    transition: all 0.25s ease-out;
+  }
+
+  .experience-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .experience > p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .experience {
+    position: absolute;
+    top: 25vh;
     left: 46vw;
     height: 70vh;
     text-align: start;
     overflow-y: scroll;
-    display: grid;
-    grid-template-columns: 250px;
-    grid-template-rows: auto;
     transition: all 0.25s ease-out;
   }
 
@@ -83,3 +107,4 @@
     margin-right: 10px;
   }
 }
+

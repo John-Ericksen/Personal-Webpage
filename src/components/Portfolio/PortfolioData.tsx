@@ -1,4 +1,4 @@
-const TechPortfolioData = [
+const PortfolioData = [
   {
     title: "Personal Webpage",
     image: "/logo.svg",
@@ -11,17 +11,12 @@ const TechPortfolioData = [
     text: "A timer built for use with the Pomodoro technique. Uses Typescript, React, and SASS.",
     link: "https://rosietimer.netlify.app/",
   },
-];
-const ArtPortfolioData = [
   {
-    title: "Rosie Timer",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PB7gDdA6O7gpwXX-cDoelORPic-1rSP6xRUfJQX_zw&s",
-    text: "A timer built for use with the Pomodoro technique. Uses Typescript, React, and SASS.",
-    link: "https://rosietimer.netlify.app/",
+    title: "Art Portfolio",
+    image: "/src/assets/ouroboros.png",
+    text: "A link to the google drive containing my artistic works. All rights reserved.",
+    link: "https://drive.google.com/drive/folders/1Wrh5BWYMVBS4er0QfiZM8qd0WORTu-8o?usp=sharing",
   },
 ];
-
-const PortfolioData = [TechPortfolioData, ArtPortfolioData];
 
 export default PortfolioData;
