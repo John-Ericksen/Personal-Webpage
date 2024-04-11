@@ -31,3 +31,61 @@
   border-radius: 10px;
   font-size: large;
 }
+
+a.button {
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1.15em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba($color: #1a1a1a, $alpha: 0.3);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: white;
+  width: fit-content;
+  outline: 1px solid white;
+  box-shadow: 20px;
+}
+a.button:hover {
+  border-color: #646cff;
+}
+a.button:focus,
+a.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button.tech-portfolio-button-active:hover,
+button.art-portfolio-button-active:hover {
+  border-color: #646cff;
+}
+button.tech-portfolio-button-active:focus,
+button.art-portfolio-button-active:focus,
+button.tech-portfolio-button-active:focus-visible,
+button.art-portfolio-button-active:focus-visible {
+  outline: 2px auto white;
+}
+
+button.tech-portfolio-button-active,
+button.art-portfolio-button-active {
+  padding: 0.8em;
+  margin: 0.2em;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: large;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+button.tech-portfolio-button-inactive,
+button.art-portfolio-button-inactive {
+  padding: 0.5em;
+  margin: 0.2em;
+  background-color: transparent;
+  border: 1px solid gray;
+  font-size: medium;
+  opacity: 50%;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
