@@ -1,26 +1,31 @@
 .skills {
   position: absolute;
   top: 20vh;
-  left: 38vw;
-  text-align: start;
+  left: 50vw;
   font-size: 1.1em;
   z-index: 2;
-  gap: 2vw;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-
-.programming-technologies {
-  margin-top: 0px;
+.programmming-technologies, .certifications {
+  position: absolute;
+  top: 10vh;
 }
 
-.programmming-technologies-list {
+.tools{
+  position: absolute;
+  top: 5vh;
+}
+
+.skill-list {  
+  margin-top: 0px;
   padding-top: 0px;
   height: 50vh;
   overflow-y: scroll;
+  min-width: 350px;
 }
 
 .skill-card {
@@ -57,19 +62,17 @@ a.button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-button.tech-portfolio-button-active:hover,
-button.art-portfolio-button-active:hover {
+button.menu-button-active:hover
+ {
   border-color: #646cff;
 }
-button.tech-portfolio-button-active:focus,
-button.art-portfolio-button-active:focus,
-button.tech-portfolio-button-active:focus-visible,
-button.art-portfolio-button-active:focus-visible {
+button.menu-button-active:focus,
+button.menu-button-active:focus-visible{
   outline: 2px auto white;
 }
 
-button.tech-portfolio-button-active,
-button.art-portfolio-button-active {
+button.menu-button-active
+ {
   padding: 0.8em;
   margin: 0.2em;
   background-color: transparent;
@@ -79,8 +82,8 @@ button.art-portfolio-button-active {
   transition: 0.3s;
 }
 
-button.tech-portfolio-button-inactive,
-button.art-portfolio-button-inactive {
+button.menu-button-inactive
+ {
   padding: 0.5em;
   margin: 0.2em;
   background-color: transparent;

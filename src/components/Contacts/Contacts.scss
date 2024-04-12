@@ -19,6 +19,10 @@
   height: 2em;
 }
 
+.contacts > .content > h2 {
+  font-size: 20px;
+}
+
 .contacts > .content > h2 > a:hover {
   color: rgba($color: #4649ff, $alpha: 1);
   border-radius: 10px;

@@ -4,10 +4,9 @@ import SkillsData from "./SkillsData";
 
 export default function Skills(props: any) {
   const formattedProgrammingTechnologies = SkillsData[0].map((value) => (
-      <div className="skill-card">
-        <p>{value}</p>
-      </div>
-   
+    <div className="skill-card">
+      <p>{value}</p>
+    </div>
   ));
   const formattedDesignSkills = SkillsData[1].map((value) => (
     <div className="skill-card">
@@ -15,14 +14,16 @@ export default function Skills(props: any) {
     </div>
   ));
 
-  const [menuState, changeMenuState] = useState("programming-technologies");
+  const [menuState, changeMenuState] = useState("certifications");
+
+  function switchToCerts() {
+    changeMenuState("certifications");
+  }
 
   function switchToProgramming() {
     changeMenuState("programming-technologies");
   }
-  function switchToSkills() {
-    changeMenuState("skills");
-  }
+
   function switchToTools() {
     changeMenuState("tools");
   }
@@ -32,9 +33,19 @@ export default function Skills(props: any) {
       <div className="portfolio-menu">
         <button
           className={
+            menuState == "certifications"
+              ? "menu-button-active"
+              : "menu-button-inactive"
+          }
+          onClick={switchToCerts}
+        >
+          Certifications
+        </button>
+        <button
+          className={
             menuState == "programming-technologies"
-              ? "tech-portfolio-button-active"
-              : "tech-portfolio-button-inactive"
+              ? "menu-button-active"
+              : "menu-button-inactive"
           }
           onClick={switchToProgramming}
         >
@@ -42,14 +53,22 @@ export default function Skills(props: any) {
         </button>
         <button
           className={
-            menuState == "tools"
-              ? "art-portfolio-button-active"
-              : "art-portfolio-button-inactive"
+            menuState == "tools" ? "menu-button-active" : "menu-button-inactive"
           }
           onClick={switchToTools}
         >
           Tools
         </button>
+      </div>
+      <div
+        className={
+          menuState == "certifications"
+            ? "certifications active"
+            : "certifications inactive"
+        }
+      >
+        <h2>Certifications          </h2>
+        <div className="skill-list"></div>
       </div>
       <div
         className={
@@ -59,20 +78,12 @@ export default function Skills(props: any) {
         }
       >
         <h2>Programming Technologies</h2>
-        <div className="programmming-technologies-list">
-          {formattedProgrammingTechnologies}
-        </div>
+        <div className="skill-list">{formattedProgrammingTechnologies}</div>
       </div>
-      <div
-        className={
-          menuState == "tools"
-            ? "tools active"
-            : "tools inactive"
-        }
-      >
+      <div className={menuState == "tools" ? "tools active" : "tools inactive"}>
         <div className="tools">
-          <h2>Design and Planning</h2>
-          <div>{formattedDesignSkills}</div>
+          <h2>Tools                   </h2>
+          <div className="skill-list">{formattedDesignSkills}</div>
         </div>
       </div>
     </div>
