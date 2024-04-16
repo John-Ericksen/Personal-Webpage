@@ -14,11 +14,11 @@ export default function Skills(props: any) {
     </div>
   ));
 
-const formattedCertifications = SkillsData[2].map((value) => (
-  <div className="skill-card">
-    <p>{value}</p>
-  </div>
-));
+  const formattedCertifications = SkillsData[2].map((value) => (
+    <div className="skill-card">
+      <p>{value}</p>
+    </div>
+  ));
 
   const [menuState, changeMenuState] = useState("certifications");
 

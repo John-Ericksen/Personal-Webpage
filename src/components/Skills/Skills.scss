@@ -10,17 +10,18 @@
   justify-content: start;
 }
 
-.programmming-technologies, .certifications {
+.programmming-technologies,
+.certifications {
   position: absolute;
   top: 10vh;
 }
 
-.tools{
+.tools {
   position: absolute;
   top: 5vh;
 }
 
-.skill-list {  
+.skill-list {
   margin-top: 0px;
   padding-top: 0px;
   height: 50vh;
@@ -62,17 +63,15 @@ a.button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-button.menu-button-active:hover
- {
+button.menu-button-active:hover {
   border-color: #646cff;
 }
 button.menu-button-active:focus,
-button.menu-button-active:focus-visible{
+button.menu-button-active:focus-visible {
   outline: 2px auto white;
 }
 
-button.menu-button-active
- {
+button.menu-button-active {
   padding: 0.8em;
   margin: 0.2em;
   background-color: transparent;
@@ -82,8 +81,7 @@ button.menu-button-active
   transition: 0.3s;
 }
 
-button.menu-button-inactive
- {
+button.menu-button-inactive {
   padding: 0.5em;
   margin: 0.2em;
   background-color: transparent;

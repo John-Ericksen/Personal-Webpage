@@ -29,6 +29,5 @@ const certifications = [
   "Intro to Deep Neural Networks with Keras (IBM)",
 ];
 
-
 const SkillsData = [programmingTechnologies, tools, certifications];
 export default SkillsData;
