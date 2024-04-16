@@ -8,11 +8,17 @@ export default function Skills(props: any) {
       <p>{value}</p>
     </div>
   ));
-  const formattedDesignSkills = SkillsData[1].map((value) => (
+  const formattedTools = SkillsData[1].map((value) => (
     <div className="skill-card">
       <p>{value}</p>
     </div>
   ));
+
+const formattedCertifications = SkillsData[2].map((value) => (
+  <div className="skill-card">
+    <p>{value}</p>
+  </div>
+));
 
   const [menuState, changeMenuState] = useState("certifications");
 
@@ -67,8 +73,8 @@ export default function Skills(props: any) {
             : "certifications inactive"
         }
       >
-        <h2>Certifications          </h2>
-        <div className="skill-list"></div>
+        <h2>Certifications </h2>
+        <div className="skill-list">{formattedCertifications}</div>
       </div>
       <div
         className={
@@ -82,8 +88,8 @@ export default function Skills(props: any) {
       </div>
       <div className={menuState == "tools" ? "tools active" : "tools inactive"}>
         <div className="tools">
-          <h2>Tools                   </h2>
-          <div className="skill-list">{formattedDesignSkills}</div>
+          <h2>Tools </h2>
+          <div className="skill-list">{formattedTools}</div>
         </div>
       </div>
     </div>

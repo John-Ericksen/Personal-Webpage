@@ -14,7 +14,7 @@ const programmingTechnologies = [
   "C",
 ];
 
-const design = [
+const tools = [
   "Project Design",
   "UI/UX Design",
   "Asana",
@@ -24,5 +24,11 @@ const design = [
   "Photoshop",
 ];
 
-const SkillsData = [programmingTechnologies, design];
+const certifications = [
+  "Machine Learning with Python (IBM)",
+  "Intro to Deep Neural Networks with Keras (IBM)",
+];
+
+
+const SkillsData = [programmingTechnologies, tools, certifications];
 export default SkillsData;
