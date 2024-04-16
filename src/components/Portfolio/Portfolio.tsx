@@ -1,7 +1,6 @@
 import "./PortfolioData";
 import "./Portfolio.scss";
 import PortfolioData from "./PortfolioData";
-import { useState } from "react";
 
 function TechProject(props: any) {
   return (
