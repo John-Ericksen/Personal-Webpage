@@ -11,41 +11,34 @@
   max-width: 700px;
   min-width: 400px;
 }
-
 .contacts > .content > h2 > a {
   color: rgba($color: #6e70ff, $alpha: 1);
   transition: 0.3s;
   display: inline;
   height: 2em;
 }
-
 .contacts > .content > h2 {
   font-size: 20px;
 }
-
 .contacts > .content > h2 > a:hover {
   color: rgba($color: #4649ff, $alpha: 1);
   border-radius: 10px;
   transition: 0.3s;
 }
-
 svg.divider {
   stroke: rgba($color: #ffffff7d, $alpha: 0.3);
   padding-left: 9em;
 }
-
 @media (max-width: 700px) {
   svg.divider {
     visibility: hidden;
     padding-left: none;
   }
-
   .contacts {
     width: fit-content;
     border: none;
     left: 36vw;
   }
-
   h2 {
     font-size: 1.2em;
   }
