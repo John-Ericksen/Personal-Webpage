@@ -1,31 +1,25 @@
 $home-1: rgba(76, 165, 255, 0.4);
 $home-2: rgba(0, 204, 255, 0.4);
 $home-3: rgba(255, 0, 255, 0.4);
-
 $home-4: rgba(255, 0, 0, 0.4);
 $home-5: rgba(255, 85, 0, 0.4);
 $home-6: rgba(255, 204, 0, 0.4);
-
 $home-7: rgba(89, 255, 0, 0.4);
 $home-8: rgba(0, 255, 110, 0.4);
 $home-9: rgba(0, 255, 183, 0.4);
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
     transform: scale(1);
   }
-
   50% {
     transform: scale(0.55);
   }
-
   100% {
     transform: rotate(360deg);
     transform: scale(1);
   }
 }
-
 .gradient-1 {
   --size: 500px;
   --speed: 30s;
@@ -33,7 +27,6 @@ $home-9: rgba(0, 255, 183, 0.4);
   position: absolute;
   top: 25vh;
   left: 25vw;
-
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
@@ -43,7 +36,6 @@ $home-9: rgba(0, 255, 183, 0.4);
   transition: all 0.25s ease-out;
   z-index: -2;
 }
-
 .gradient-2 {
   --size: 500px;
   --speed: 30s;
@@ -51,7 +43,6 @@ $home-9: rgba(0, 255, 183, 0.4);
   position: absolute;
   top: 10vh;
   left: 33vw;
-
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
@@ -61,7 +52,6 @@ $home-9: rgba(0, 255, 183, 0.4);
   transition: all 0.25s ease-out;
   z-index: -2;
 }
-
 .gradient-3 {
   --size: 500px;
   --speed: 30s;
@@ -69,7 +59,6 @@ $home-9: rgba(0, 255, 183, 0.4);
   position: absolute;
   top: 25vh;
   left: 40vw;
-
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
@@ -79,7 +68,6 @@ $home-9: rgba(0, 255, 183, 0.4);
   transition: all 0.25s ease-out;
   z-index: -2;
 }
-
 @media (min-width: 720px) {
   .gradient {
     --size: 850px;
@@ -88,7 +76,6 @@ $home-9: rgba(0, 255, 183, 0.4);
     height: 95%;
   }
 }
-
 body {
   background-color: black;
   position: absolute;
@@ -98,19 +85,17 @@ body {
   align-items: center;
   overflow: hidden;
 }
-
 @media (max-width: 720px) {
   .border {
     height: 99%;
   }
 }
-
 .border {
   width: 98%;
   border: 1px solid white;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   margin: 1vw;
   z-index: -1;
 }
