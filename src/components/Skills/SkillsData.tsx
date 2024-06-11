@@ -25,10 +25,11 @@ const tools = [
 ];
 
 const certifications = [
+  "Deep Learning Models with TensorFlow (IBM)",
+  "Deep Neural Networks with PyTorch (IBM)",
   "Machine Learning with Python (IBM)",
   "Intro to Deep Neural Networks with Keras (IBM)",
   "Introduction to Computer Vision and Image Processing (IBM)",
-  "Deep Neural Networks with PyTorch (IBM)",
 ];
 
 const SkillsData = [programmingTechnologies, tools, certifications];
