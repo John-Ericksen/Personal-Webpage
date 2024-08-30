@@ -2,7 +2,7 @@ const PortfolioData = [
   {
     title: "Sannleiki",
     image: "/san_logo.png",
-    text: "a free-to-use portrait deep fake detector, using a custom AI model trained on over 100,000 pieces of data to detect AI manipulation in portraits with over 80% accuracy.",
+    text: "A free-to-use portrait deep fake detector, using a custom AI model trained on over 100,000 pieces of data to detect AI manipulation in portraits with over 80% accuracy.",
     link: "https://github.com/John-Ericksen/sannleiki",
   },
   {
