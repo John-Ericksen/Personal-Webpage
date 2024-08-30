@@ -2,7 +2,7 @@ const ExperienceData = [
   {
     title: "QuattronKids",
     subtitle: "Programming Instructor",
-    image: "https://www.quattronkids.com/logo.jpg",
+    image: "/quattronkdis_logo.png",
     text: "Instructed others in the fundamentals of programming, Python, and Game Development.",
   },
   {

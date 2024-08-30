@@ -1,9 +1,15 @@
 const PortfolioData = [
   {
+    title: "Sannleiki",
+    image: "/san_logo.png",
+    text: "a free-to-use portrait deep fake detector, using a custom AI model trained on over 100,000 pieces of data to detect AI manipulation in portraits with over 80% accuracy.",
+    link: "https://github.com/John-Ericksen/sannleiki",
+  },
+  {
     title: "Personal Webpage",
     image: "/logo.svg",
     text: "This current site. Created using React, Typescript, and SASS, this web page hosts information about myself and the projects I've worked on.",
-    link: "http://localhost:5173/",
+    link: "https://johnericksen.netlify.app/",
   },
   {
     title: "Rosie Timer",
