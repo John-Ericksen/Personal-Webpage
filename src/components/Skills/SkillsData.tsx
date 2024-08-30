@@ -25,6 +25,7 @@ const tools = [
 ];
 
 const certifications = [
+  "IBM AI Engineering Professional",
   "Deep Learning Models with TensorFlow (IBM)",
   "Deep Neural Networks with PyTorch (IBM)",
   "Machine Learning with Python (IBM)",
