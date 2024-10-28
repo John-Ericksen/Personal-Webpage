@@ -4,13 +4,13 @@ const ExperienceData = [
     subtitle: "Website Development Intern",
     image:
       "https://www.stonybrook.edu/commcms/university-honors-programs/_images/red-shield-big.png",
-    text: "Designed and implemented web pages for multiple Stony Brook University departments, identified and updated/removed outdated and broken links from Stony Brook University owned web pages, and created online contact forms on Stony Brook web pages resulting in over 150% more responses from web page users",
+    text: "Designed and implemented web pages for multiple Stony Brook University departments, identified and updated/removed outdated and broken links from Stony Brook University owned web pages, and created online contact forms on Stony Brook web pages resulting in over 150% more responses from web page users.",
   },
   {
     title: "QuattronKids",
     subtitle: "Programming Instructor",
     image: "/quattronkdis_logo.png",
-    text: "Instructed others in the fundamentals of programming, Python, and Game Development.",
+    text: "Instructed hundreds of students on the fundamentals of programming such as variables, data types, and good coding practice. Taught the syntax of Python, and how to utilize Python to make software applications. Guided students through the process of game development, from concept to implementation.",
   },
   {
     title: "Amazon",
