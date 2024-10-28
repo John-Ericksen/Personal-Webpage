@@ -2,10 +2,11 @@
 pulled and rendered in <arrays></arrays>*/
 
 const programmingTechnologies = [
-  "HTML",
-  "CSS",
   "TypeScript",
   "React",
+  "SASS",
+  "HTML",
+  "CSS",
   "Machine Learning",
   "JavaScript",
   "Python",
@@ -14,14 +15,21 @@ const programmingTechnologies = [
   "C",
 ];
 
-const tools = [
-  "Project Design",
-  "UI/UX Design",
+const toolsAndSkills = [
   "Asana",
   "Figma",
-  "Documentation Writing",
-  "Version Management",
   "Photoshop",
+  "Project Design",
+  "UI/UX Design",
+  "Accessibility Auditing",
+  "Machine Learning",
+  "Artificial Intelligence",
+  "Deep Neural Networks",
+  "Project Design",
+  "Documentation Writing",
+  "Teamwork and Interpersonal Communication",
+  "Testing (Unit, End-to-End, Integration)",
+  "Adaptability",
 ];
 
 const certifications = [
@@ -33,5 +41,5 @@ const certifications = [
   "Introduction to Computer Vision and Image Processing (IBM)",
 ];
 
-const SkillsData = [programmingTechnologies, tools, certifications];
+const SkillsData = [programmingTechnologies, toolsAndSkills, certifications];
 export default SkillsData;

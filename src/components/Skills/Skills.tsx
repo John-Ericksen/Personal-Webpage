@@ -63,7 +63,7 @@ export default function Skills(props: any) {
           }
           onClick={switchToTools}
         >
-          Tools
+          Tools and Skills
         </button>
       </div>
       <div
