@@ -88,7 +88,7 @@ export default function Skills(props: any) {
       </div>
       <div className={menuState == "tools" ? "tools active" : "tools inactive"}>
         <div className="tools">
-          <h2>Tools </h2>
+          <h2>Tools and Skills</h2>
           <div className="skill-list">{formattedTools}</div>
         </div>
       </div>

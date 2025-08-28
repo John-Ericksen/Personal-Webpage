@@ -2,6 +2,8 @@
 pulled and rendered in <arrays></arrays>*/
 
 const programmingTechnologies = [
+  "Python",
+  "Java",
   "TypeScript",
   "React",
   "SASS",
@@ -9,23 +11,20 @@ const programmingTechnologies = [
   "CSS",
   "Machine Learning",
   "JavaScript",
-  "Python",
   "C#",
-  "Java",
   "C",
 ];
 
 const toolsAndSkills = [
+  "UI/UX Design",
+  "Accessible Software Development",
   "Asana",
   "Figma",
   "Photoshop",
-  "Project Design",
-  "UI/UX Design",
-  "Accessibility Auditing",
+  "Project Management",
   "Machine Learning",
   "Artificial Intelligence",
   "Deep Neural Networks",
-  "Project Design",
   "Documentation Writing",
   "Teamwork and Interpersonal Communication",
   "Testing (Unit, End-to-End, Integration)",
@@ -33,6 +32,8 @@ const toolsAndSkills = [
 ];
 
 const certifications = [
+  "Department of Homeland Security Standards for Web",
+  "Department of Homeland Security Testing Tools",
   "IBM AI Engineering Professional",
   "Deep Learning Models with TensorFlow (IBM)",
   "Deep Neural Networks with PyTorch (IBM)",
