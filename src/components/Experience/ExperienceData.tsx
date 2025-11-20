@@ -1,17 +1,16 @@
 const ExperienceData = [
   {
-    title: "FreeWheel",
+    title: "Comcast",
     subtitle: "Software Engineering Intern",
-    image:
-      "https://builtin.com/sites/www.builtin.com/files/2022-08/Freewheel.jpg",
-    text: "Analyzed published computing journals and research papers to design and develop a new ad-space bidding system that reduces bid times by from 450ms to 10ms, resulting in less missed bids due to timeouts and more revenue generated off of won bids."
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Comcast.svg",
+    text: "By leveraging published computing research to engineer a new backend bidding algorithm, ad-space bidding times were improved by over 400ms, directly increasing revenue. Implementation of this system enhanced resource utilization, resulting in a 90% reduction in operational time costs. The project also facilitated improved team collaboration through dedicated training on the new technical concepts.",
   },
   {
     title: "Stony Brook",
     subtitle: "Website Development Intern",
     image:
       "https://www.stonybrook.edu/commcms/university-honors-programs/_images/red-shield-big.png",
-    text: "Designed and implemented web pages for multiple Stony Brook University departments, identified and updated/removed outdated and broken links from Stony Brook University owned web pages, and created online contact forms on Stony Brook web pages resulting in over 150% more responses from web page users.",
+    text: "Developed and maintained web solutions for over 10 departments at Stony Brook University, designing 25+ pages that increased user engagement by 150% through optimized contact forms and data visualization. Complementing this web development work, operational workflows were streamlined using Python and shell scripting automation, achieving a 55% efficiency improvement and saving over five hours of manual work weekly.",
   },
   {
     title: "Amazon",
