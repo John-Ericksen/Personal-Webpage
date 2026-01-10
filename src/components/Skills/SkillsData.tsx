@@ -6,6 +6,7 @@ const programmingTechnologies = [
   "Java",
   "TypeScript",
   "JavaScript",
+  "JavaScript",
   "React",
   "HTML",
   "CSS",
@@ -19,13 +20,12 @@ const toolsAndSkills = [
   "Human-Computer Interaction",
   "UI/UX Design",
   "Accessible Software Development",
-  "Project Management",
-  "Testing (Unit, End-to-End, Integration)",
+  "Photoshop",
+  "Artificial Intelligence",
 ];
 
 const certifications = [
-  "Department of Homeland Security Standards for Web",
-  "Department of Homeland Security Testing Tools",
+  "Department of Homeland Security Certified Trusted Tester",
   "IBM AI Engineering Professional",
 ];
 

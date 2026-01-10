@@ -27,14 +27,14 @@ export default function SideNav(props: any) {
         >
           <p>Experience</p>
         </li>
-        <li
+        {/* <li
           className={
             props.selectedArray[3] == true ? "selected" : "not-selected"
           }
           onClick={() => props.select(3)}
         >
           <p>Portfolio</p>
-        </li>
+        </li> */}
         <li
           className={
             props.selectedArray[4] == true ? "selected" : "not-selected"
